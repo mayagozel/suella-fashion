@@ -1053,7 +1053,8 @@ footer .f-right .social a:last-child {
   background-color: #000;
   color: #fff;
 }
-.fashion .bg-img {
+.fashion .bg-img,
+.fashion .bg-img-access {
   float: left;
   background-image: url("../img/fashion/bg-fashion.png");
   background-blend-mode: multiply;
@@ -1061,10 +1062,12 @@ footer .f-right .social a:last-child {
   background-attachment: fixed;
   width: 100%;
 }
-.fashion .bg-img .info {
+.fashion .bg-img .info,
+.fashion .bg-img-access .info {
   padding: 200px 0 250px 0;
 }
-.fashion .bg-img .info h1 {
+.fashion .bg-img .info h1,
+.fashion .bg-img-access .info h1 {
   font-size: 50px;
   text-transform: uppercase;
   font-family: "Didot Regular", sans-serif;
@@ -1073,7 +1076,8 @@ footer .f-right .social a:last-child {
   color: #000;
   padding-bottom: 5px;
 }
-.fashion .bg-img .info p {
+.fashion .bg-img .info p,
+.fashion .bg-img-access .info p {
   font-size: 26px;
   font-family: "Poiret One", sans-serif;
   color: #000;
@@ -1087,13 +1091,23 @@ footer .f-right .social a:last-child {
   height: 3px;
   padding-bottom: 10px;
 }
-.fashion .bg-img .info .bline1 {
+.fashion .bg-img-access .info .bline1,
+.fashion .bg-img-access .info .bline2,
+.fashion .bg-img-access .info .bline3 {
+  color: #FFC786;
+  height: 3px;
+  padding-bottom: 10px;
+}
+.fashion .bg-img .info .bline1,
+.fashion .bg-img-access .info .bline1 {
   width: 300px;
 }
-.fashion .bg-img .info .bline2 {
+.fashion .bg-img .info .bline2,
+.fashion .bg-img-access .info .bline2 {
   width: 230px;
 }
-.fashion .bg-img .info .bline3 {
+.fashion .bg-img .info .bline3,
+.fashion .bg-img-access .info .bline3 {
   width: 110px;
   padding-bottom: 40px;
 }
@@ -1136,7 +1150,8 @@ footer .f-right .social a:last-child {
   float: left;
 }
 
-.make-up .first-image {
+.make-up .first-image,
+.make-up .first-image-access {
   width: 100%;
   height: 1000px;
   background-image: url("../img/make up/main.png");
@@ -1149,21 +1164,30 @@ footer .f-right .social a:last-child {
   font-family: "Poiret One", sans-serif;
   letter-spacing: 10px;
 }
-.make-up .first-image h1 {
+.make-up .first-image-access {
+  background-image: url("../img/accessories/first.jpg");
+}
+.make-up .first-image h1,
+.make-up .first-image-access h1 {
   font-size: 100px;
   font-weight: bolder;
   padding-top: 20%;
   padding-bottom: 1%;
 }
-.make-up .first-image h3 {
+.make-up .first-image h3,
+.make-up .first-image-access h3 {
   font-size: 40px;
   font-weight: lighter;
 }
 .make-up .bg-img {
   background-image: url("../img/make up/lips.png");
 }
-.make-up .bg-img .info p {
+.make-up .bg-img .info p,
+.make-up .bg-img-access .info p  {
   max-width: 710px;
   font-weight: 600;
   font-size: 28px;
+}
+.make-up .bg-img-access {
+  background-image: url("../img/accessories/second.jpg");
 }
