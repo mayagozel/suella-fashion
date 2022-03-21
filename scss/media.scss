@@ -1,0 +1,14 @@
+@media (max-width: 640px) {
+  nav ul li a {
+    font-size: 11px;
+  }
+  nav li a:after {
+    font-size: 0.6rem;
+  }
+  .open-overlay {
+    right: 1rem;
+  }
+  nav li a:before {
+    width: 15px;
+  }
+}

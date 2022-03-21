@@ -1,0 +1,180 @@
+.fashion {
+  //The Fashion page second section with gray background
+  .bg-grey {
+    background-color: #2B2B2B;
+    padding: 0 400px;
+    position: relative;
+
+    .g-left {
+      position: relative;
+
+      img {
+        margin-top: 150px;
+        position: absolute;
+        width: 460px;
+        height: 630px;
+        border: 5px solid #CFCFCF;
+        cursor: pointer;
+        transition: opacity ease-in-out 0.5s;
+
+        &:last-child {
+          opacity: 0;
+        }
+      }
+
+      &:hover img {
+        border: none;
+
+        &:last-child {
+          opacity: 100%;
+        }
+      }
+    }
+
+    .g-right {
+      position: relative;
+      background-color: #9A6DFF;
+      min-width: 500px;
+      min-height: 900px;
+      margin-left: 460px;
+
+      a {
+        position: absolute;
+        top: 57%;
+        left: 72%;
+        font-size: 20px;
+        font-family: 'Antonio', sans-serif;
+        color: #000;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+      }
+    }
+
+    .floating {
+      position: absolute;
+      top: 40%;
+      left: 38.6%;
+
+      .first,
+      .second {
+        font-size: 45px;
+        font-family: 'Poiret One', sans-serif;
+        letter-spacing: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 25px 10px;
+      }
+
+      .first {
+        padding-right: 10px;
+        background-color: #fff;
+        color: #000;
+      }
+
+      .second {
+        padding-left: 20px;
+        padding-right: 50px;
+        background-color: #000;
+        color: #fff;
+      }
+    }
+  }
+
+  //Third section with information about Fashion
+  .bg-img {
+    float: left;
+    background-image: url("../img/fashion/bg-fashion.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+
+    .info {
+      padding: 200px 0 250px 0;
+
+      h1 {
+        font-size: 50px;
+        text-transform: uppercase;
+        font-family: 'Didot Regular', sans-serif;
+        font-weight: bold;
+        letter-spacing: 15px;
+        color: #000;
+        padding-bottom: 5px;
+      }
+
+      p {
+        font-size: 26px;
+        font-family: 'Poiret One', sans-serif;
+        color: #000;
+        max-width: 510px;
+        padding-top: 60px;
+      }
+
+      .bline1,
+      .bline2,
+      .bline3 {
+        color: #FFC786;
+        height: 3px;
+        padding-bottom: 10px;
+      }
+
+      .bline1 {
+        width: 300px;
+      }
+      .bline2 {
+        width: 230px;
+      }
+
+      .bline3 {
+        width: 110px;
+        padding-bottom: 40px;
+      }
+    }
+  }
+
+  .gallery {
+    width: 100%;
+    float: left;
+
+    .col-md-3 {
+      padding-left: 0;
+
+      img, video {
+        width: 480px;
+        height: 480px;
+        display: block;
+      }
+    }
+  }
+
+  #top .top-img {
+    width: 100%;
+    background-image: url("../img/make up/main.png");
+    background-blend-mode: multiply;
+    background-color: #443a2e;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+
+    h1 {
+      font-size: 80px;
+      text-transform: uppercase;
+      font-family: 'Poiret One', sans-serif;
+    }
+  }
+
+  .brand-w {
+    width: 100%;
+    float: left;
+  }
+
+  .brand-b {
+    width: 100%;
+    float: left;
+  }
+
+  footer {
+    width: 100%;
+    float: left;
+  }
+}
